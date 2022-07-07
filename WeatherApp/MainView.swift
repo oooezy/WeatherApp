@@ -17,19 +17,20 @@ struct MainView: View {
                         HStack {
                             Image("location_icon")
                             Text("강남구, 대한민국").font(.headline)
+                                .foregroundColor(.darkGrayFont)
                         }
                     }
                     ToolbarItem(placement: .navigationBarLeading) {
                         Button(action: { print("Clicked") }) {
                             Image(systemName: "text.alignleft")
-                                .foregroundColor(.gray)
+                                .foregroundColor(.darkGrayFont)
                         }
                     }
 
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button(action: { print("Clicked") }) {
                             Image(systemName: "plus")
-                                .foregroundColor(.gray)
+                                .foregroundColor(.darkGrayFont)
                         }
                     }
                 }

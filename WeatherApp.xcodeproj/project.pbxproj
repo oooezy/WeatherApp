@@ -11,6 +11,7 @@
 		C008F74B28767F490025190D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C008F74A28767F490025190D /* MainView.swift */; };
 		C008F74D28767F4D0025190D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C008F74C28767F4D0025190D /* Assets.xcassets */; };
 		C008F75028767F4D0025190D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C008F74F28767F4D0025190D /* Preview Assets.xcassets */; };
+		C0ABBFAA287709E000B3B738 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ABBFA9287709E000B3B738 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C008F74A28767F490025190D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C008F74C28767F4D0025190D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C008F74F28767F4D0025190D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0ABBFA9287709E000B3B738 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		C008F73C28767F490025190D = {
 			isa = PBXGroup;
 			children = (
+				C0ABBFA8287709D600B3B738 /* Extension */,
 				C008F74728767F490025190D /* WeatherApp */,
 				C008F74628767F490025190D /* Products */,
 			);
@@ -65,6 +68,14 @@
 				C008F74F28767F4D0025190D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0ABBFA8287709D600B3B738 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C0ABBFA9287709E000B3B738 /* ColorExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0ABBFAA287709E000B3B738 /* ColorExtension.swift in Sources */,
 				C008F74B28767F490025190D /* MainView.swift in Sources */,
 				C008F74928767F490025190D /* WeatherApp.swift in Sources */,
 			);
