@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct MainView: View {
+    @StateObject var locationManager = LocationManager()
+    
     var body: some View {
         NavigationView {
             Text("Main")
