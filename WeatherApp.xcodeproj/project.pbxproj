@@ -12,6 +12,7 @@
 		C008F74D28767F4D0025190D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C008F74C28767F4D0025190D /* Assets.xcassets */; };
 		C008F75028767F4D0025190D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C008F74F28767F4D0025190D /* Preview Assets.xcassets */; };
 		C0ABBFAA287709E000B3B738 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ABBFA9287709E000B3B738 /* ColorExtension.swift */; };
+		C0B14BF128805C0A00D9D0FD /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B14BF028805C0A00D9D0FD /* LoadingView.swift */; };
 		C0E60D8C287C66E3009B5592 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E60D8B287C66E3009B5592 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		C008F74C28767F4D0025190D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C008F74F28767F4D0025190D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C0ABBFA9287709E000B3B738 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		C0B14BF028805C0A00D9D0FD /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		C0E60D8B287C66E3009B5592 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				C008F74A28767F490025190D /* MainView.swift */,
+				C0B14BF028805C0A00D9D0FD /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				C0E60D8C287C66E3009B5592 /* LocationManager.swift in Sources */,
 				C0ABBFAA287709E000B3B738 /* ColorExtension.swift in Sources */,
 				C008F74B28767F490025190D /* MainView.swift in Sources */,
+				C0B14BF128805C0A00D9D0FD /* LoadingView.swift in Sources */,
 				C008F74928767F490025190D /* WeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

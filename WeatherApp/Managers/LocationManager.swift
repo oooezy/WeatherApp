@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import CoreLocation // User의 현재 위치 가져오는 프레임워크
+import CoreLocation
 
 class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     

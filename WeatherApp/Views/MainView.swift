@@ -12,7 +12,16 @@ struct MainView: View {
     
     var body: some View {
         NavigationView {
-            Text("Main")
+            VStack {
+                if let location = locationManager.location {
+                    Text("Your coordinates are: \(location.longitude), \(location.latitude)")
+                } else {
+                    if locationManager.isLoading {
+                        LoadingView()
+                    }
+                }
+            }
+            .background(Color.bgColor)
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar {
                     ToolbarItem(placement: .principal) {
